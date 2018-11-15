@@ -124,7 +124,7 @@ ol, ul {
 
 .hero {
     height: 300px;
-    /* background-image: url('../images/6007.jpg');
+    /* background-image: url('/assets/images/6007.jpg');
     background-size: 700px, 300px;
     background-repeat: no-repeat;
     background-position-x: right; */
@@ -334,7 +334,7 @@ ol, ul {
 
 .form-email #inputCorreoSuscripcion {
     padding: 10px 30px;
-    background-image: url('../images/contact/icon_mail.svg');
+    background-image: url('/assets/images/contact/icon_mail.svg');
     background-size: 20px 20px;
     background-repeat: no-repeat;
     background-position-y: center;
@@ -369,17 +369,17 @@ ol, ul {
 }
 
 .social-link.twitter {
-    background-image: url('../images/contact/social_media_twitter.svg');
+    background-image: url('/assets/images/contact/social_media_twitter.svg');
     /* background-size: 50px 50px; */
 }
 
 .social-link.github {
-    background-image: url('../images/contact/social_media_github.svg');
+    background-image: url('/assets/images/contact/social_media_github.svg');
     /* background-size: 50px 50px; */
 }
 
 .social-link.linkedin {
-    background-image: url('../images/contact/social_media_linkedin.svg');
+    background-image: url('/assets/images/contact/social_media_linkedin.svg');
     /* background-size: 50px 50px; */
 }
 

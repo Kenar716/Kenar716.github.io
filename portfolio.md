@@ -21,7 +21,7 @@ title: Portafolio
                 <a class="project-url" href="https://kenar716.github.io/" target="_blank">Liga del proyecto</a>
             </div>
             <figure class="project-imageContainer">
-                <img class="project-image" src="images/portfolio/abstract-ai-art-355948.jpg" width="500" height="300"
+                <img class="project-image" src="/assets/images/portfolio/abstract-ai-art-355948.jpg" width="500" height="300"
                     alt="Imagen Portafolio" />
             </figure>
         </article>
@@ -42,7 +42,7 @@ title: Portafolio
                 <a class="project-url" href="#" target="_blank">Liga del proyecto</a>
             </div>
             <figure class="project-imageContainer">
-                <img class="project-image" src="images/portfolio/alphabet-bright-business-256502.jpg" width="500"
+                <img class="project-image" src="/assets/images/portfolio/alphabet-bright-business-256502.jpg" width="500"
                     height="300" alt="Imagen Portafolio" />
             </figure>
         </article>

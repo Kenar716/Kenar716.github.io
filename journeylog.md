@@ -13,7 +13,7 @@ title: Bitácora
             <article class="week">
                 <div>
                     <figure class="week-imageContainer">
-                        <img class="week-image" src="images/journeylog/Vital_Strike_SoC.jpg" width="500" height="300"
+                        <img class="week-image" src="/assets/images/journeylog/Vital_Strike_SoC.jpg" width="500" height="300"
                             alt="Imagen Bitácora" />
                     </figure>
                 </div>
@@ -36,7 +36,7 @@ title: Bitácora
             <article class="week">
                 <div>
                     <figure class="week-imageContainer">
-                        <img class="week-image" src="images/journeylog/Star-Wars-Repubnlic-Commando-1280x720.jpg" width="500"
+                        <img class="week-image" src="/assets/images/journeylog/Star-Wars-Repubnlic-Commando-1280x720.jpg" width="500"
                             height="300" alt="Imagen Bitácora" />
                     </figure>
                 </div>
@@ -59,7 +59,7 @@ title: Bitácora
             <article class="week">
                 <div>
                     <figure class="week-imageContainer">
-                        <img class="week-image" src="images/journeylog/Jedi_Briefing_Room.jpg" width="500" height="300"
+                        <img class="week-image" src="/assets/images/journeylog/Jedi_Briefing_Room.jpg" width="500" height="300"
                             alt="Imagen Bitácora" />
                     </figure>
                 </div>
@@ -82,7 +82,7 @@ title: Bitácora
             <article class="week">
                 <div>
                     <figure class="week-imageContainer">
-                        <img class="week-image" src="images/journeylog/3004968-abyk1a7svf0tade42m0v.jpg" width="500"
+                        <img class="week-image" src="/assets/images/journeylog/3004968-abyk1a7svf0tade42m0v.jpg" width="500"
                             height="300" alt="Imagen Bitácora" />
                     </figure>
                 </div>
