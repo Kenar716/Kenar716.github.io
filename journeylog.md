@@ -71,7 +71,7 @@ title: Bitácora
                         <small><strong>Periodo: </strong>05/Noviembre/2018 - 11/Noviembre/2018</small>
                     </p>
                     <p class="week-achievement">
-                        Integracion Continua
+                        Continous Integration/Continous Delivery
                     </p>
                     <p class="week-achievement">
                         Github Pages for Projects
@@ -94,10 +94,10 @@ title: Bitácora
                         <small><strong>Periodo: </strong>12/Noviembre/2018 - 18/Noviembre/2018</small>
                     </p>
                     <p class="week-achievement">
-                        &nbsp
+                        Jenking with ASP.NET
                     </p>
                     <p class="week-achievement">
-                        &nbsp
+                        Email Marketing Mailchimp
                     </p>
                     <a class="week-url" href="#ningunLado">Detalles</a>
                 </div>
