@@ -217,10 +217,10 @@ ol, ul {
 
 .journeylog {
     background-color: #FAFAFA;
+    padding: 20px;
 }
 
 .journeylog h2 {
-    margin-top: 0px;
     margin-left: 20px;
 }
 
