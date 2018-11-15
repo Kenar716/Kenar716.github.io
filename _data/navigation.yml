@@ -1,0 +1,10 @@
+- name: Inicio
+  link: /
+- name: Bitácora
+  link: /journeylog.html
+- name: Portafolio
+  link: /portfolio.html
+- name: Cursos Recomendados
+  link: /courses.html
+- name: Contacto
+  link: #contact
