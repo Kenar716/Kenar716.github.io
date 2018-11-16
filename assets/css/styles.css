@@ -321,18 +321,18 @@ ol, ul {
     justify-content: space-between;
 }
 
-.form-email input {
+#mc-embedded-subscribe-form input {
     border-color: gray;
     border-radius: 5px;
     border-style: solid;
 }
 
-.form-email #inputPaisSuscripcion {
+/* .form-email #inputPaisSuscripcion {
     width: 40px;
     padding: 10px 5px;
-}
+} */
 
-.form-email #inputCorreoSuscripcion {
+#mc-embedded-subscribe-form #mce-EMAIL {
     padding: 10px 30px;
     background-image: url('/assets/images/contact/icon_mail.svg');
     background-size: 20px 20px;
@@ -341,7 +341,7 @@ ol, ul {
     background-position-x: 5px;
 }
 
-.form-email #inputSuscribete {
+#mc-embedded-subscribe-form #mc-embedded-subscribe {
     display: block;
     background: transparent;
     border-color: white;
