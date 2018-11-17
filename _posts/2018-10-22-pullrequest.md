@@ -1,6 +1,7 @@
 ---
 layout: post
 author: Kenar716
+title: "Pull Request"
 ---
 Mejora tu ciclo de trabajo y de revisiones con Pull Request.
 
