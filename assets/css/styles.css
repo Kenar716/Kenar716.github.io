@@ -116,6 +116,9 @@ ol, ul {
 .header a {
     color: white;
     text-decoration: none;
+}
+
+.header nav a {
     display: flex;
     align-items: center;
     height: inherit;
