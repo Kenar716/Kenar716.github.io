@@ -279,6 +279,56 @@ ol, ul {
     border-radius: 5px;
 }
 
+.entry {
+    /* background-color: white;
+    border: 2px solid gray;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    margin: 15px;
+    padding: 20px; */
+    /* border: 1px solid red; */
+    margin: 10px;
+    width: 480px;
+    border-radius: 10px;
+    overflow: hidden; /* Se oculta elemento que pasa del tamaño */
+    flex-shrink: 0; /* con flex se ajusta de nuevo a que aparezca la imagen completa, combinado con lo anterior */
+    background-color: #F4FBFF;
+
+}
+
+.entry figure {
+    margin: 0;
+}
+
+.entry img {
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.entry-details {
+    /* margin: top right bottom left; */
+    /* margin: 10px 20px; */
+    margin: 20px 40px;
+    background-color: white;
+    margin-top: -40px;
+    position: relative; /* Esto combinado con margin negativo hace que se coloce el fondo blanco arriba de la imagen */
+    padding: 20px;
+    text-align: center;
+}
+
+.entry-excerpt {
+    text-align: left;
+}
+
+.entry-url {
+    border: 1px solid #056FFF;
+    padding: 5px 20px;
+    text-decoration-line: none;
+    color: #056FFF;
+    border-radius: 5px;
+}
+
 .courses {
     background-color: #FAFAFA;
 }
