@@ -6,7 +6,5 @@
   link: /portfolio.html
 - name: Cursos Recomendados
   link: /courses.html
-- name: Blog
-  link: /blog.html
 - name: Contacto
   link: '#contact'
