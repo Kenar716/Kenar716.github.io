@@ -1,4 +1,4 @@
 url: "https://kenar716.github.io"
-gems:
+plugins:
   - jekyll-feed
   - jekyll-sitemap
