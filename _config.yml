@@ -1,4 +1,16 @@
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
 url: "https://kenar716.github.io"
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+

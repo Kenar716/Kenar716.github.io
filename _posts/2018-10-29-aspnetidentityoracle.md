@@ -1,5 +1,4 @@
 ---
-layout: post
 author: Kenar716
 title: "ASP.NET Identity Oracle Database"
 ---

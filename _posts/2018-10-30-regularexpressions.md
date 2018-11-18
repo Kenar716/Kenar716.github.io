@@ -1,5 +1,4 @@
 ---
-layout: post
 author: Kenar716
 title: "Expresiones Regulares"
 ---
