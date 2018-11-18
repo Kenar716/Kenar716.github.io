@@ -437,3 +437,12 @@ ol, ul {
     height: inherit;
     flex-wrap: inherit;
 }
+
+.blogpost {
+    background-color: #FAFAFA;
+    padding: 20px;
+}
+
+.blogpost h2 {
+    margin-left: 20px;
+}
