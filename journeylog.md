@@ -9,8 +9,26 @@ title: Bitácora
             <article class="entry">
                 <div>
                     <figure class="entry-imageContainer">
-                        <img class="entry-image" src="/assets/images/journeylog/Vital_Strike_SoC.jpg" width="500" height="300"
-                            alt="Imagen Bitácora" />
+                    {% assign foundImage = 0 %}
+                    {% assign images = post.content | split:"<img " %}
+                    {% for image in images %}
+                        {% if image contains 'src' %}
+                            {% if foundImage == 0 %}
+                            {% assign html = image | split:"/>" | first %}
+                            {% assign tags = html | split:" " %}
+                            {% for tag in tags %}
+                                {% if tag contains 'src' %}
+                                <img class="entry-image" alt="Imagen Bitácora" {{ tag }} />
+                                {% endif %}
+                            {% endfor %}
+                            {% assign foundImage = 1 %}
+                            {% break %}
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                    {% if foundImage == 0 %}
+                    <img class="entry-image" alt="Imagen Bitácora" src="/assets/images/journeylog/Vital_Strike_SoC.jpg" />
+                    {% endif %}
                     </figure>
                 </div>
                 <div class="entry-details">
