@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Bitácora
 ---
 <section class="journeylog" id="journeylog">

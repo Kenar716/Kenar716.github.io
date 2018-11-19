@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Portafolio
 ---
 <section id="portfolio" class="portfolio">

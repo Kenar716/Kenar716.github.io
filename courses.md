@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Cursos Recomendados
 ---
 <section id="courses" class="courses">
