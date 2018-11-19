@@ -332,6 +332,28 @@ ol, ul {
     border-radius: 5px;
 }
 
+.blogentry-details {
+    margin-bottom: 35px;
+}
+
+.blogentry-content img
+{
+    width: 650px;
+    height: auto;
+    object-fit: contain;
+}
+
+.blogentry-content ol, .blogentry-content ul {
+    list-style: square;
+    padding-left: 40px;
+}
+
+.blogentry-content li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* padding: 0; */
+}
+
 .courses {
     background-color: #FAFAFA;
 }
@@ -347,7 +369,7 @@ ol, ul {
     margin-left: 70px;
 }
 
-.courses ol, ul {
+.courses ol, .courses ul {
     list-style: square;
 }
 
