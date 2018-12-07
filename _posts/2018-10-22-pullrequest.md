@@ -1,9 +1,10 @@
 ---
 title: Pull Request
+layout: post
 author: Kenar716
 ---
 
-Mejora tu ciclo de trabajo y de revisiones con Pull Request.
+**Mejora tu ciclo de trabajo y de revisiones con Pull Request.**
 
 Pull Request es un mecanismo que facilita la colaboración de los desarrolladores, ya que implementa una manera de notificar a los miembros del equipo que una funcionalidad (feature) se ha completado en la rama (branch)  y que está lista para su revisión y fusión (merge) con la rama master (o la que se indique).
 
