@@ -46,6 +46,9 @@ SELECT * FROM T_Empleados WHERE Apellido = 'RODRIGUEZ' AND Edad >= 25;
 ```
 
 
+![Employee Index Example](/assets\images\posts\2018-12-06-oracleindexes\oracle_employee_index.gif)
+
+
 Al momento de crear indices es muy importante considerar que según la cantidad de registros y las columnas a indexar se puede consumir una gran cantidad de recursos lo cual puede afectar ambientes productivos, las siguientes consultas pueden ayudar a medir la memoria consumida por los Tablespaces Temporales al momento de crear el indice, se recomienda evaluar estas consultas y la creación de indices en ambientes de pruebas o en horarios no productivos, algunas de las siguientes consultas requeriran permisos de DBA.
 
 Determinar el Tablespace Temporal del usuario de la sesión.
