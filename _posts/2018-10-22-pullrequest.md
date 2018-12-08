@@ -1,6 +1,5 @@
 ---
 title: Pull Request
-layout: post
 author: Kenar716
 ---
 

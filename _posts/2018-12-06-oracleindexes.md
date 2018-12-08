@@ -1,6 +1,5 @@
 ---
 title: Oracle Indexes
-layout: post
 author: Kenar716
 ---
 
