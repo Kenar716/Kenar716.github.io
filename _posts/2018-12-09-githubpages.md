@@ -1,6 +1,7 @@
 ---
 author: Kenar716
 title: "Github Pages"
+journeylog_image: "/assets/images/posts/2018-12-09-githubpages/githubpages_banner.PNG"
 ---
 **Tu página personal en Github Pages.**
 
@@ -11,8 +12,6 @@ Se pueden crear dos tipos de sitios en Github Pages, por Usuario/Organizacion o 
 Al ser un servicio de hospedaje de sitios estaticos Github Pages no soporta lenguajes de programación del lado del servidor (PHP, Ruby, .NET, Python, etc.) por lo cual no se puede crear un blog de la manera tradicional usando Wordpress, Drupa o Joomla, pero existen alternativas para generar como es Jekyll que se integra de manera nativa con Github.
 
 Para crear una pagina de Usuario/Organización basta con crear un repositorio de tipo público en nuestra cuenta de Github con el siguiente formato username.github.io (username es el nombre de la cuenta de Github) y listo el sitio sera accesible a través de https://username.github.io
-
-![](/assets\images\posts\2018-12-09-githubpages\githubpages_banner.PNG)
 
 Para agregar contenido a nuestro sitio basta con realizar commits al repositorio creando el sitio de html puro o bien utilizando Jekyll ya sea a través de el Seleccionador de Temas de Jekyll o de manera manual.
 

@@ -1,6 +1,7 @@
 ---
 title: Jekyll & Mailchimp
 author: Kenar716
+journeylog_image: "/assets/images/posts/2018-12-07-jekyllandmailchimp/mailchimp_logo.png"
 ---
 
 **Formulario de Suscripción en Jekyll con Mailchimp.**
@@ -8,8 +9,6 @@ author: Kenar716
 Agrega un formulario de suscripcion para tus visitantes con Mailchimp.
 
 Una de las cosas más importantes una vez que se tiene un blog/sitio personal es un agregar un formulario de contacto para tus visitantes y esto se puede lograr de manera muy fácil con Mailchimp.
-
-![](/assets\images\posts\2018-12-07-jekyllandmailchimp\mailchimp_logo.png)
 
 Lo primero que debemos realizar es crear una cuenta gratuita en Mailchimp y posteriormente crear una Lista en la cual se almacenaran los contactos que se suscriban a nuestra página.
 
