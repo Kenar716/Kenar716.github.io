@@ -12,7 +12,7 @@ Al ser un servicio de hospedaje de sitios estaticos Github Pages no soporta leng
 
 Para crear una pagina de Usuario/Organización basta con crear un repositorio de tipo público en nuestra cuenta de Github con el siguiente formato username.github.io (username es el nombre de la cuenta de Github) y listo el sitio sera accesible a través de https://username.github.io
 
-![](/assets\images\posts\2018-12-09-githubpages\githubpages_banner.png)
+![](/assets\images\posts\2018-12-09-githubpages\githubpages_banner.PNG)
 
 Para agregar contenido a nuestro sitio basta con realizar commits al repositorio creando el sitio de html puro o bien utilizando Jekyll ya sea a través de el Seleccionador de Temas de Jekyll o de manera manual.
 
