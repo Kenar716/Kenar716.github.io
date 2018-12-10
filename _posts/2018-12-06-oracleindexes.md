@@ -112,9 +112,8 @@ GROUP BY DF.Tablespace_Name, FS.Bytes, DF.Bytes_Free, DF.Bytes_Used
 ORDER BY 4 DESC;
 ```
 
-**Nota:** Los indices no son utilizados si la clausula WHERE aplica el operador LIKE sobre una de las columnas del índice.
+**Nota:** Los indices no son utilizados si en la clausula WHERE aplica el operador LIKE sobre una de las columnas del índice.
 
-asdasd
 En los siguiente enlaces se puede encontrar información mas detalle acerca de los índices en oracle.
 * [https://blogs.oracle.com/sql/how-to-create-and-use-indexes-in-oracle-database](https://blogs.oracle.com/sql/how-to-create-and-use-indexes-in-oracle-database)
 * [https://docs.oracle.com/cd/B19306_01/server.102/b14200/statements_5010.htm](https://docs.oracle.com/cd/B19306_01/server.102/b14200/statements_5010.htm)
