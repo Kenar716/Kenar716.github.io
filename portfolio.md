@@ -31,14 +31,14 @@ title: Portafolio
                 <p class="project-repository">
                     <small>
                         <strong>Repositorio:</strong>
-                        <a class="project-url" href="https://github.com/Kenar716/Kenar716.github.io" target="_blank">https://github.com/Kenar716/Kenar716.github.io</a>
+                        <a class="project-url" href="https://github.com/Kenar716/PlatziCursoDesarrolloWebOnline" target="_blank">https://github.com/Kenar716/PlatziCursoDesarrolloWebOnline</a>
                     </small>
                 </p>
                 <p class="project-description">
                     Página desarrollada durante el Curso de Diseño Web Online de Platzi,
                     este sitio esta desarrollado con HTML y CSS.
                 </p>
-                <a class="project-url" href="#" target="_blank">Liga del proyecto</a>
+                <a class="project-url" href="https://kenar716.github.io/PlatziCursoDesarrolloWebOnline/" target="_blank">Liga del proyecto</a>
             </div>
             <figure class="project-imageContainer">
                 <img class="project-image" src="/assets/images/portfolio/alphabet-bright-business-256502.jpg" width="500"

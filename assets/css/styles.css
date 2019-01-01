@@ -126,7 +126,7 @@ ol, ul {
 }
 
 .hero {
-    height: 300px;
+    height: 250px;
     /* background-image: url('/assets/images/6007.jpg');
     background-size: 700px, 300px;
     background-repeat: no-repeat;
@@ -148,8 +148,8 @@ ol, ul {
 }
 
 .hero-image  {
-    width: 700px;
-    height: 300px;
+    width: 650px;
+    height: 250px;
     object-fit: cover;
 }
 
