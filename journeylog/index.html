@@ -1,8 +1,6 @@
 ---
 layout: default
 title: Bitacora
-pagination: 
-  enabled: true
 ---
 </div>
 </div>
@@ -21,36 +19,69 @@ pagination:
 <div class="container">
 <div class="main-content">
 
-<!-- Posts Index
-================================================== -->
-{% if paginator.previous_page %}
-    {% if paginator.previous_page > 0 %}
-        <div id="jumptopageof"></div>
-    {% endif %}
-{% endif %}
 <section class="recent-posts row">
     <div class="col-sm-8">
-        <div class="section-title">
-            <h2><span>Bitácora</span></h2>
-        </div>
-        <div class="masonrygrid row listrecent">
-            {% for post in paginator.posts %}
-                {% unless post.featured == true %}
-                {% include postbox.html %}
-            {% endunless %}
-        {% endfor %}
+        <section class="journeylog" id="journeylog">
+            <div class="container col-md-6">
+                <h2>Bitácora</h2>
+                <div class="journeylog-container">
+                    {% for post in site.posts %}
+                    <article class="entry card">
+                        <div>
+                            <a href="{{ post.url | absolute_url }}">
+                                <figure class="entry-imageContainer">
+                                    {% if post.cover != null %}
+                                        <img class="img-fluid" src="{{ site.baseurl }}/{{ post.cover }}" alt="{{ post.title }}">
+                                    {% else %}
+                                        {% assign foundImage = 0 %}
+                                        {% assign images = post.content | split:"<img " %}
+                                        {% for image in images %}
+                                            {% if image contains 'src' %}
+                                                {% if foundImage == 0 %}
+                                                {% assign html = image | split:"/>" | first %}
+                                                {% assign tags = html | split:" " %}
+                                                {% for tag in tags %}
+                                                    {% if tag contains 'src' %}
+                                                    <img class="entry-image" alt="Imagen Bitácora" {{ tag }} />
+                                                    {% endif %}
+                                                {% endfor %}
+                                                {% assign foundImage = 1 %}
+                                                {% break %}
+                                                {% endif %}
+                                            {% endif %}
+                                        {% endfor %}
+                                        {% if foundImage == 0 %}
+                                        <img class="img-fluid" alt="{{ post.title }}" src="/assets/images/journeylog/Vital_Strike_SoC.jpg" />
+                                        {% endif %}
+                                    {% endif %}
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="entry-details card-block">
+                            <h3 class="entry-name card-title">
+                                <a style="color: black;" href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+                            <div class="metafooter">
+                                <div class="wrapfooter">
+                                    <p class="entry-date post-date">
+                                        <small><strong>Fecha: </strong>{{ post.date | date: "%d %B %Y" }}</small>
+                                    </p>
+                                    <div class="entry-excerpt card-text">
+                                        {{ post.excerpt }}
+                                    </div>
+                                    <a class="entry-url post-read-more" style="color: black" href="{{ post.url }}">Leer más...</a>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
     </div>
 
-    <!-- Pagination -->
-    <div class="bottompagination">
-        <span class="navigation" role="navigation">
-            {% include pagination.html %}
-        </span>
+    <!-- Sidebar -->
+    <div class="col-sm-4">
+        {% include sidebar.html %}
     </div>
-</div>
-
-<!-- Sidebar -->
-<div class="col-sm-4">
-    {% include sidebar.html %}
-</div>
 </section>
