@@ -1,6 +1,10 @@
 ---
+layout: post
 title: Oracle Indexes
 author: Kenar716
+date: 2018-12-06 12:00:00 +0545
+categories: blog
+summary:
 ---
 
 **Indices para mejorar tus consultas**

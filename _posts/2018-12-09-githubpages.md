@@ -1,7 +1,11 @@
 ---
+layout: post
 author: Kenar716
 title: "Github Pages"
-journeylog_image: "/assets/images/posts/2018-12-09-githubpages/githubpages_banner.PNG"
+date: 2018-12-09 12:00:00 +0545
+cover: assets/images/posts/2018-12-09-githubpages/githubpages_banner.PNG
+categories: blog
+summary:
 ---
 **Tu página personal en Github Pages.**
 

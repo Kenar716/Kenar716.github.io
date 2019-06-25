@@ -1,6 +1,10 @@
 ---
+layout: post
 title: Pull Request
 author: Kenar716
+date: 2018-10-22 12:00:00 +0545
+categories: blog
+summary:
 ---
 
 **Mejora tu ciclo de trabajo y de revisiones con Pull Request.**

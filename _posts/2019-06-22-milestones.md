@@ -1,6 +1,10 @@
 ---
+layout: post
 author: Kenar716
 title: "Goals and Milestones"
+date: 2019-06-22 12:00:00 +0545
+categories: blog
+summary:
 ---
 **Objetivos e hitos.**
 

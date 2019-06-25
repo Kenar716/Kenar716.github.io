@@ -1,117 +1,172 @@
-<!doctype html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Kenar Enterprise</title>
-    <link rel="icon" type="image/png" href="/assets/images/CommandoKenar716.png" />
-    <link rel="stylesheet" href="/assets/css/styles.css" />
-    <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700|Roboto:400,700|Satisfy" rel="stylesheet">
-</head>
-<body>
-    <header class="header">
-        <div class="container">
-            <!-- <figure class="logo">
-            <img src="images/May the Force be your programming.png" alt="Logo de https://kenar716.github.io/">
-            </figure> -->
-            <a href="/" ><h1>CodingFriki</h1></a>
-            {% include navigation.html %}
-        </div>
-    </header>
-    {{ content }}
-    <section id="contact" class="contact">
-        <div class="container">
-            <!-- Begin Mailchimp Signup Form -->
-            <!-- <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css"> -->
-            <!-- <style type="text/css">
-                    #mc_embed_signup {
-                        background: #fff;
-                        clear: left;
-                        font: 14px Helvetica, Arial, sans-serif;
-                    }
-            /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-            We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-            </style> -->
-            <div id="mc_embed_signup">
-                <form action="https://github.us19.list-manage.com/subscribe/post?u=8be88abe460439e86bc27581b&amp;id=d3f782cea9"
-                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll">
-                        <h3>Aprendamos algo nuevo juntos...</h3>
-                        <div class="mc-field-group">
-                            <!-- <label for="mce-EMAIL">Correo Electrónico </label> -->
-                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Correo Electrónico">
-                        </div>
-                        <div id="mce-responses" class="clear">
-                            <div class="response" id="mce-error-response" style="display:none"></div>
-                            <div class="response" id="mce-success-response" style="display:none"></div>
-                        </div>
-                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                            <input type="text" name="b_8be88abe460439e86bc27581b_d3f782cea9" tabindex="-1" value="">
-                        </div>
-                        <div class="clear">
-                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-            <script type='text/javascript'>(function ($) {
-                    window.fnames = new Array();
-                    window.ftypes = new Array();
-                    fnames[0] = 'EMAIL'; ftypes[0] = 'email';
-                    /*
-                    * Translated default messages for the $ validation plugin.
-                    * Locale: ES
-                    */
-                    $.extend($.validator.messages, {
-                        required: "Este campo es obligatorio.",
-                        remote: "Por favor, rellena este campo.",
-                        email: "Por favor, escribe una dirección de correo válida",
-                        url: "Por favor, escribe una URL válida.",
-                        date: "Por favor, escribe una fecha válida.",
-                        dateISO: "Por favor, escribe una fecha (ISO) válida.",
-                        number: "Por favor, escribe un número entero válido.",
-                        digits: "Por favor, escribe sólo dígitos.",
-                        creditcard: "Por favor, escribe un número de tarjeta válido.",
-                        equalTo: "Por favor, escribe el mismo valor de nuevo.",
-                        accept: "Por favor, escribe un valor con una extensión aceptada.",
-                        maxlength: $.validator.format("Por favor, no escribas más de {0} caracteres."),
-                        minlength: $.validator.format("Por favor, no escribas menos de {0} caracteres."),
-                        rangelength: $.validator.format("Por favor, escribe un valor entre {0} y {1} caracteres."),
-                        range: $.validator.format("Por favor, escribe un valor entre {0} y {1}."),
-                        max: $.validator.format("Por favor, escribe un valor menor o igual a {0}."),
-                        min: $.validator.format("Por favor, escribe un valor mayor o igual a {0}.")
-                    });
-                }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
-            <!--End mc_embed_signup-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="{{ site.baseurl }}/assets/images/CommandoKenar716.png">
+        <title>{{ page.title }} | {{site.name}}</title>
+        {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/css/user.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+    {% seo %}
+    
+    {{site.sharethis}}
 
-            <div class="social">
-                <a class="social-link twitter" href="https://twitter.com/Kenar716" target="_blank"></a>
-                <a class="social-link github" href="https://github.com/kenar716" target="_blank"></a>
-                <a class="social-link linkedin" href="https://linkedin.com/in/carlos-uriel-valdez-muñoz" target="_blank"></a>
+    {% if jekyll.environment == 'production' %}
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', '{{site.google_analytics}}', 'auto');
+        ga('send', 'pageview');
+    </script>
+    
+    {% endif %}
+</head>
+
+{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
+
+<body class="{{ layout }}">
+
+<!-- Begin Menu Navigation
+================================================== -->
+<header class="navbar navbar-toggleable-md navbar-light bg-white fixed-top mediumnavigation">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsWow" aria-controls="navbarsWow" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="container">
+        <!-- Begin Logo -->
+        <a class="navbar-brand" href="{{ site.baseurl }}/">
+            {% if site.logo == true %}
+        <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+            {% else %}
+            {{ site.description }}
+            {% endif %}
+        </a>
+        <!-- End Logo -->
+
+        <!-- Begin Menu -->
+        <div class="collapse navbar-collapse" id="navbarsWow">
+            <!-- Begin Menu -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/category/blog/">Bitacora</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/portfolio">Portafolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contacto</a>
+                </li>
+            </ul>
+            <!-- End Menu -->
+        </div>
+    </div>
+</header>
+<!-- End Menu Navigation -->
+
+<div class="site-content">
+    <div class="container">
+        <!-- Site Title -->
+        <div class="mainheading" style="display:none;">
+            <h1 class="sitetitle">{{ site.name }}</h1>
+            <p class="lead">
+                {{ site.description }}
+            </p>
+        </div>
+
+        <!-- Content -->
+        <div class="main-content">
+            {{ content }}
+        </div>
+    </div><!-- /.container -->
+
+    <!-- Before Footer -->
+    <div class="beforefooter">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8" id="contact">
+                    <h3>Contacto</h3>
+                    <form action="https://formspree.io/{{site.email}}" method="POST">
+                        <div class="form-group row">
+                            <div class="col">
+                                    <input class="form-control mb-3" type="text" name="name" placeholder="Nombre">
+                                    <input class="form-control mb-3" type="email" name="_replyto" placeholder="Correo Electrónico">
+                            </div>
+                            <div class="col">
+                                <textarea rows="4" class="form-control mb-3" name="message" placeholder="Mensaje"></textarea>
+                            </div>
+                        </div>
+                        <input class="btn btn-success" type="submit" value="Enviar">
+                    </form>
+                </div>
+                <div class="col-md-4 text-right footersocial">
+                    <h5>Redes Sociales</h5>
+                    <a href="https://twitter.com/Kenar716" target="_blank"><i class="fab fa-twitter"></i></a>
+                     <a href="https://www.linkedin.com/in/carlos-uriel-valdez-mu%C3%B1oz/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                     <a href="https://github.com/kenar716" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
             </div>
         </div>
-    </section>
+    </div>
+
+    <!-- Begin Footer -->
     <footer class="footer">
         <div class="container">
-            <div>
-                <p>
-                    <a href="https://platzi.com/clases/html5-css3/">Curso de Desarrollo Web Online 2018</a>
-                    <a href="http://www.platzi.com" target="_blank">
-                        <img src="https://static.platzi.com/static/css/logo.a76b2a87162b3b46529c30d1cb91ccc6.png"
-                            height="39px" width="100px" alt="Platzi">
-                    </a>
-                </p>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="footer-widget">
+                        <h5 class="title">Recursos</h5>
+                        <ul>
+                            <li><a href="{{ site.baseurl }}/sitemap.xml">SiteMap</a></li>
+                            <li><a href="{{ site.baseurl }}/feed.xml">Live Feed</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="footer-widget textwidget">
+                        <h5 class="title">Acerca de mi</h5>
+                        <p>¡Hola! Soy un Desarrollador .NET con una gran pasión por el aprendizaje de las TICs, May the Force be your programming.</p>
+                    </div>
+                </div>
             </div>
-            <div>
-                <p>
-                    <!-- Designed with <\3 by <a href="https://twitter.com/Kenar716">Kenar716</a> -->
-                    Designed with <\3
+            <div class="copyright">
+                <p class="pull-left">
+                    Made with Love in <a href="https://jekyllrb.com" target="_blank"><img src="/assets/images/jekyll.png" width="32px" height="32px" /></a>
+                    Copyright  ©  {{ site.time | date: "%Y" }} {{ site.name }}
                 </p>
+                <p class="pull-right">
+                    <!-- Please, leave credit to author unless you own a commercial license: https://www.wowthemes.net/freebies-license/ -->
+                    <a target="_blank" href="https://www.wowthemes.net/free-jekyll-template-affiliates/">"Affiliate Theme"</a> - Modified by <a href="https://cdrrazan.com">@cdrrazan</a>
+                </p>
+                <div class="clearfix"></div>
             </div>
         </div>
     </footer>
+    <!-- End Footer -->
+
+</div> <!-- /.site-content> -->
+
+<!-- JavaScript-->
+<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/user.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script>
+<script type='text/javascript' src='{{ site.baseurl }}/assets/js/masonry.pkgd.min.js'></script>
+<script src="{{ site.baseurl }}/assets/js/theme.js"></script>
+
 </body>
+
 </html>

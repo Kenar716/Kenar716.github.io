@@ -1,7 +1,11 @@
 ---
+layout: post
 title: Jekyll & Mailchimp
 author: Kenar716
-journeylog_image: "/assets/images/posts/2018-12-07-jekyllandmailchimp/mailchimp_logo.png"
+date: 2018-12-07 12:00:00 +0545
+cover: assets/images/posts/2018-12-07-jekyllandmailchimp/mailchimp_logo.png
+categories: blog
+summary:
 ---
 
 **Formulario de Suscripción en Jekyll con Mailchimp.**

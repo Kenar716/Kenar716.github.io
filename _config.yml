@@ -1,16 +1,54 @@
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+# Site
+name: Coding Friki
+description: Coding Friki
+meta_description: Coding Friki
+logo: /assets/images/CommandoKenar716.png
+favicon: /assets/images/CommandoKenar716.png
+paginate: 6
+baseurl: 
+email: 'kenarenterprise@outlook.com'
+google_analytics:
+disqus: codingfriki-com
+sharethis:
 
-url: "https://kenar716.github.io"
+# Authors
+authors:
+  Kenar716:
+    name: Kenar716
+    display_name: Kenar716
+    image: /assets/images/CommandoKenar716.png
+    email: kenarenterprise@outlook.com
+    web: www.codingfriki.com
+    twitter: Kenar716
+    description: Kenar716
+
+# Plugins
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-archives
+  - jekyll-seo-tag
 
+permalinks: pretty
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: 'category/:name/'
+
+# Other
+markdown: kramdown
+highlighter: rouge
+
+# SEO
+twitter:
+  username: Kenar716
+  card: summary
+
+social:
+name: Kenar716
+links:
+    - https://twitter.com/
+    - https://github.com/

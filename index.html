@@ -1,15 +1,69 @@
 ---
+layout: default
 title: Inicio
 ---
-<section class="hero">
-    <div class="container">
-        <h1>
-            ¡Hola! Soy un Desarrollador .NET <br>
-            con una gran pasión por el aprendizaje de las TICs,<br>
-            <strong>May the Force be your programming.</strong>
-        </h1>
-        <figure class="hero-imageContainer">
-            <img class="hero-image" src="/assets/images/6007.jpg" alt="Logo Imagen Principal del Sitio" />
-        </figure>
+</div>
+</div>
+<!-- We've temporary closed main-content and container to have a full width intro -->
+<!-- Home Jumbotron
+================================================== -->
+<section class="intro">
+    <center>
+        <h1 style="color:white"> Aprendamos algo nuevo juntos.</h1>
+        <br>
+        <h3>May the Force be your programming.</h3>
+    </center>
+</section>
+
+<!-- We reopen main-content and container -->
+<div class="container">
+<div class="main-content">
+<!-- Featured
+================================================== -->
+<!-- Esta sección se deshabilita temporalmente -->
+<!-- <section class="featured-posts">
+    <div class="section-title">
+        <h2><span>Portafolio</span></h2>
     </div>
+    <div class="row listfeaturedtag">
+        {% for post in site.posts %}
+            {% if post.featured == true %}
+                {% include featuredbox.html %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</section> -->
+
+<!-- Posts Index
+================================================== -->
+{% if paginator.previous_page %}
+    {% if paginator.previous_page > 0 %}
+        <div id="jumptopageof"></div>
+    {% endif %}
+{% endif %}
+<section class="recent-posts row">
+    <div class="col-sm-8">
+        <div class="section-title">
+            <h2><span>Bitácora</span></h2>
+        </div>
+        <div class="masonrygrid row listrecent">
+            {% for post in paginator.posts %}
+                {% unless post.featured == true %}
+                {% include postbox.html %}
+            {% endunless %}
+        {% endfor %}
+    </div>
+
+    <!-- Pagination -->
+    <div class="bottompagination">
+        <span class="navigation" role="navigation">
+            {% include pagination.html %}
+        </span>
+    </div>
+</div>
+
+<!-- Sidebar -->
+<div class="col-sm-4">
+    {% include sidebar.html %}
+</div>
 </section>

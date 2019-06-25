@@ -1,0 +1,53 @@
+<!-- begin post -->
+{% assign author = site.authors[post.author] %}
+
+<div class="col-md-6 grid-item">
+<div class="card">
+    <a href="{{ post.url | absolute_url }}">
+        {% if post.cover != null %}
+            <img class="img-fluid" src="{{ site.baseurl }}/{{ post.cover }}" alt="{{ post.title }}">
+        {% else %}
+            {% assign foundImage = 0 %}
+            {% assign images = post.content | split:"<img " %}
+            {% for image in images %}
+                {% if image contains 'src' %}
+                    {% if foundImage == 0 %}
+                    {% assign html = image | split:"/>" | first %}
+                    {% assign tags = html | split:" " %}
+                    {% for tag in tags %}
+                        {% if tag contains 'src' %}
+                        <img class="img-fluid" alt="{{ post.title }}" {{ tag }}>
+                        {% endif %}
+                    {% endfor %}
+                    {% assign foundImage = 1 %}
+                    {% break %}
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+            {% if foundImage == 0 %}
+            <img class="img-fluid" alt="{{ post.title }}" src="/assets/images/journeylog/Vital_Strike_SoC.jpg" />
+            {% endif %}
+        {% endif %}
+    </a>
+    <div class="card-block">
+        <h2 class="card-title"><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+        <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:30 }}</h4>
+        <div class="metafooter">
+            <div class="wrapfooter">
+                {% if post.author %}
+                <span class="meta-footer-thumb">
+                <img class="author-thumb" src="{{ author.image }}" alt="{{ author.display_name }}">
+                </span>
+                <span class="author-meta">
+                <span class="post-name"><a target="_blank" href="{{ author.web }}">{{ author.display_name }}</a></span><br/>
+                {% endif %}
+                <span class="post-date">{{ post.date | date_to_string }}</span>
+                </span>
+                <span class="post-read-more"><a href="{{ post.url | absolute_url }}" title="Read Story"><i class="fa fa-link"></i></a></span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- end post -->
