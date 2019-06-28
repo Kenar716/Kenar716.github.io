@@ -53,3 +53,10 @@ margin-right: 5px;
 .share-button.linkedin:hover { background-color: #1e84b9; }
 .share-button.google-plus { background-color: #c92228;}
 .share-button.google-plus:hover { background-color: #cf4146; }
+
+
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
