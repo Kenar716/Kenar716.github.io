@@ -12,7 +12,7 @@ La frase "Mide dos veces, corta una vez" es muy relevante en el proceso de desar
 
 Cada tipo de proyecto de software tiene un balance diferente entre las preparaciones y la construcción, cada proyecto es único, pero los proyectos tienden a caer dentro de estilos de desarrollo generales. 
 
-<table class="table table-sm table-striped table-bordered align-items-center text-center">
+<table class="table table-sm table-striped table-bordered table-responsive align-items-center text-center small">
     <colgroup >
         <col width="25%" />
         <col width="25%" />
@@ -112,7 +112,7 @@ Cada tipo de proyecto de software tiene un balance diferente entre las preparaci
         </tr>
         <tr>
             <td markdown="span" rowspan="4" class="table-inverse">Diseño</td>
-            <td markdown="span">Diseño y codicicación combinadas</td>
+            <td markdown="span">Diseño y codificación combinadas</td>
             <td markdown="span">Diseño arquitectónico</td>
             <td markdown="span">Diseño arquitectónico</td>
         </tr>
