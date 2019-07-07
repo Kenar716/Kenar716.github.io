@@ -182,7 +182,7 @@ Un proyecto con el enfoque secuencial se basa solamente en las pruebas para desc
 
 Para determinar el mejor tipo de enfoque para el proyecto se recomiendan los siguientes lineamientos. 
 
-<table class="table table-striped table-bordered align-items-center">
+<table class="table table-striped table-bordered table-responsive align-items-center small">
     <colgroup >
         <col width="50%" />
         <col width="50%" />
