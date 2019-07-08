@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Kenar716
-title: "Measure Twice, Cut One - Part 1"
+title: "Measure Twice, Cut Once - Part 1"
 date: 2019-07-06 12:00:00 +0545
 categories: blog
 summary:
