@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Kenar716
-title: "Measure Twice, Cut Once - Part 1"
+title: "Measure Twice, Cut Once - Part 1/3"
 date: 2019-07-06 12:00:00 +0545
 categories: blog
 summary:
@@ -239,6 +239,6 @@ Algunas recomendaciones a seguir para el cambio de requerimientos durante la con
 
 En la segunda parte de esta entrada hablaremos de una serie de cuestionamientos que nos marcarán la pauta para saber si conocemos lo necesario del proyecto para iniciar la construcción del software.
 
-Extracto del libro _**Code Complete**_ 2nd Edition de **Steve McConnell**, Chapter 3: _Measure Twice, Cut Once: Upstream Prerequisites_.
+Extracto/resumen del libro _**Code Complete**_ 2nd Edition de **Steve McConnell**, Chapter 3: _Measure Twice, Cut Once: Upstream Prerequisites_.
 
 Estimado visitante, si haz llegado al final de esta entrada te lo agradezco y te invito a que _**aprendamos algo nuevo juntos...**_

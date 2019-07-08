@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Kenar716
-title: "Measure Twice, Cut Once - Part 2"
+title: "Measure Twice, Cut Once - Part 2/3"
 date: 2019-07-07 12:00:00 +0545
 cover: assets/images/posts/2019-07-07-measuretwicecutoncepart2/checklist-requirements.jpg
 categories: blog
@@ -49,6 +49,6 @@ No todas las preguntas son aplicables para todos los proyectos, esto dependerá 
 
 En la tercera y última parte de esta serie hablaremos sobre los prerequisitos para la arquitectura de software y la importancia que tiene en la construcción de sistemas.
 
-Extracto del libro _**Code Complete**_ 2nd Edition de **Steve McConnell**, Chapter 3: _Measure Twice, Cut Once: Upstream Prerequisites_.
+Extracto/resumen del libro _**Code Complete**_ 2nd Edition de **Steve McConnell**, Chapter 3: _Measure Twice, Cut Once: Upstream Prerequisites_.
 
 Estimado visitante, si haz llegado al final de esta entrada te lo agradezco y te invito a que _**aprendamos algo nuevo juntos...**_
