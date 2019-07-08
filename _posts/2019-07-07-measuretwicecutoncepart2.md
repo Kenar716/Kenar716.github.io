@@ -47,6 +47,7 @@ No todas las preguntas son aplicables para todos los proyectos, esto dependerá 
 - ¿Todos los requerimientoss se encuentran completos en el sentido de que si el producto satisface cada requerimiento, será este aceptable?
 - _**¿Te encuentras cómodo con todos los requerimientos?**_ ¿Haz eliminado requerimientos que son imposibles de implementar y se han incluido solamente para satisfacer o calmar al cliente o a tu jefe?
 
+En la tercera y última parte de esta serie hablaremos sobre la arquitectura de software y la importación que tiene en la construcción de sistemas.
 
 Extracto del libro _**Code Complete**_ 2nd Edition de **Steve McConnell**, Chapter 3: _Measure Twice, Cut Once: Upstream Prerequisites_.
 

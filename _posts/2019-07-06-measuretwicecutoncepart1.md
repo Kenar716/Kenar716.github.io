@@ -200,15 +200,15 @@ Para determinar el mejor tipo de enfoque para el proyecto se recomiendan los sig
         </tr>
         <tr>
             <td markdown="span">El diseño es sencillo y se ha entendido bastante bien.</td>
-            <td markdown="span">The diseño es complejo, desafiante, o ambos.</td>
+            <td markdown="span">El diseño es complejo, desafiante, o ambos.</td>
         </tr>
         <tr>
             <td markdown="span">El equipo de desarrollo esta esta familiarizado con el area de aplicación</td>
-            <td markdown="span">The equipo de desarrollo no está familiarizado con el area de aplicación.</td>
+            <td markdown="span">El equipo de desarrollo no está familiarizado con el area de aplicación.</td>
         </tr>
         <tr>
             <td markdown="span">El proyecto tiene pocos riesgos.</td>
-            <td markdown="span">The proyecto contiene grandes riesgos.</td>
+            <td markdown="span">El proyecto contiene grandes riesgos.</td>
         </tr>
         <tr>
             <td markdown="span">La previsibilidad a largo plazo es importante.</td>
@@ -221,21 +221,23 @@ Para determinar el mejor tipo de enfoque para el proyecto se recomiendan los sig
     </tbody>
 </table>
 
-El primer prerequisito que se debe de cumplir antes de iniciar la construccion de software es definir de manera clara cual es el problema que el sistema se supone va a resolver. 
+El primer prerequisito que se debe de cumplir antes de iniciar la construcción de software es definir de manera clara cual es el problema que el sistema se supone va a resolver. 
 
 ![code-complete-2](/assets/images/posts/2019-07-06-measuretwicecutoncepart1/PiramidaConstruccion.PNG){: .center-image }
 
 La definición del problema nos indica que cual es el problema que enfrentamos sin ninguna referencia posible a una solución, es un enunciado simple y debe de sonar como un problema, la definición del problema debe de estar en el lenguaje del usuario, y los problemas deben de ser descritos desde el punto de vista de un usuario, usualmente no deben de contener terminos técnicos o computacionales, salvo el contexto lo requiera como tal. 
 
-Establecer un conjunto de requerimientos explícitos es importante por varias razones, nos ayudan en asegurar que el usuario en lugar del desarrollador dirijan la funcionalidad del sistema. Si los requerimientos son explícitos, el usuario puede revisar y aceptar los cambios, si no son explícitos, el desarrollador usualmente termina tomando decisiones sobre los requerimientos durante la codificación. Los requerimientos explícitos evitan estar adivinando lo que el usuario realmente quiere, además tambien ayudan a evitar argumentos cuando el equipo de desarrollo tiene discrepancias sobre lo que el sistema se supone que hara ya que estos se puede resolver al verificar la lista de requerimientos. 
+Establecer un conjunto de requerimientos explícitos es importante por varias razones, nos ayudan en asegurar que el usuario en lugar del desarrollador dirijan la funcionalidad del sistema. Si los requerimientos son explícitos, el usuario puede revisar y aceptar los cambios, si no son explícitos, el desarrollador usualmente termina tomando decisiones sobre los requerimientos durante la codificación. Los requerimientos explícitos evitan estar adivinando lo que el usuario realmente quiere, además tambien ayudan a evitar argumentos cuando el equipo de desarrollo tiene discrepancias sobre lo que el sistema se supone que hara ya que estos se pueden resolver al verificar la lista de requerimientos. 
 
 Algunas recomendaciones a seguir para el cambio de requerimientos durante la construcción del software son las siguientes: 
 - Que los requimientos cumplan la calidad usando la lista de verificacion siguiente. 
 - Asegurarse que todo el mundo entienda el costo de cambiar los requerimientos. 
 - Establecer un procedimiento de control de cambios. 
-- Usar estilos de desarrollo que se faciliten los cambios. 
-- Abandonar el proyecto. 
+- Usar estilos de desarrollo que faciliten los cambios. 
+- Abandonar el proyecto.
 - Mantener un ojo en las oportunidades de negocio del proyecto. 
+
+En la segunda parte de esta entrada hablaremos de una serie de cuestionamientos que nos marcarán la pauta para saber si conocemos lo necesario del proyecto para iniciar la construcción del software.
 
 Extracto del libro _**Code Complete**_ 2nd Edition de **Steve McConnell**, Chapter 3: _Measure Twice, Cut Once: Upstream Prerequisites_.
 
