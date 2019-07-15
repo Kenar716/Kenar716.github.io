@@ -2,8 +2,8 @@
 name: Coding Friki
 description: Coding Friki
 meta_description: Coding Friki
-logo: /assets/images/CommandoKenar716.png
-favicon: /assets/images/CommandoKenar716.png
+logo: /assets/images/iconfinder_shining_mix_coffee_1059392.ico
+favicon: /assets/images/iconfinder_shining_mix_coffee_1059392.ico
 paginate: 6
 baseurl: 
 email: 'kenarenterprise@outlook.com'
@@ -27,6 +27,7 @@ plugins:
   - jekyll-paginate
   - jekyll-archives
   - jekyll-seo-tag
+  - jekyll-feed
 
 permalinks: pretty
 
@@ -48,7 +49,7 @@ twitter:
   card: summary
 
 social:
-name: Kenar716
-links:
+  name: Kenar716
+  links:
     - https://twitter.com/
     - https://github.com/
