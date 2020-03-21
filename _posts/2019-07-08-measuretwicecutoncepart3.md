@@ -4,6 +4,8 @@ author: Kenar716
 title: "Measure Twice, Cut Once - Part 3/3"
 date: 2019-07-08 12:00:00 +0545
 cover: assets/images/posts/2019-07-08-measuretwicecutoncepart3/architecture-design.jpg
+cover_author_link: https://unsplash.com/photos/RLw-UC03Gwc
+cover_author_name: Glenn Carstens-Peters
 categories: blog
 summary:
 ---

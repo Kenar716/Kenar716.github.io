@@ -55,8 +55,34 @@ margin-right: 5px;
 .share-button.google-plus:hover { background-color: #cf4146; }
 
 
-.center-image
-{
+.center-image {
     margin: 0 auto;
     display: block;
+}
+
+.post-figure {
+    position: relative;
+    width: 100%; /* for IE 6 */
+}
+
+.post-figure .image-author {
+    position: absolute;
+    right: 0;
+}
+
+.post-figure .image-author-withcaption {
+    bottom: 25px;
+}
+
+.post-figure .image-author-withoutcaption {
+    bottom: 1px;
+}
+
+.post-figure .image-author > span {
+    color: white;
+    font: italic 24px/45px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
 }

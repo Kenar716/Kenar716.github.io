@@ -30,7 +30,35 @@ post_class: post-template
             </div>
 
             <!-- Post Featured cover -->
-            {% if page.cover %}<img class="featured-cover img-fluid" src="{{ site.baseurl }}/{{ page.cover }}" alt="{{ page.title }}" width="100%">{% endif %}
+            {% if page.cover %}
+                {% if page.cover_author_link or page.cover_caption %}
+                <figure class="post-figure">
+                    <img class="featured-cover img-fluid" src="{{ site.baseurl }}/{{ page.cover }}" alt="{{ page.title }}" width="100%">
+
+                    {% if page.cover_author_link %}
+                        {% if page.cover_caption %}
+                    <div class="image-author image-author-withcaption">
+                        {% else %}
+                    <div class="image-author image-author-withoutcaption">
+                        {% endif %}
+
+                        <span>
+                            Fotografia por <a href="{{ page.cover_author_link }}">{{ page.cover_author_name }}</a>
+                        </span>
+                    </div>
+                    {% endif %}
+
+                    {% if page.cover_caption %}
+                    <figcaption>
+                        {{page.cover_caption}}
+                    </figcaption>
+                    {% endif %}
+                </figure>
+
+                {% else %}
+                <img class="featured-cover img-fluid" src="{{ site.baseurl }}/{{ page.cover }}" alt="{{ page.title }}" width="100%">
+                {% endif %}
+            {% endif %}
             <!-- End Featured cover -->
             <br><br>
 
