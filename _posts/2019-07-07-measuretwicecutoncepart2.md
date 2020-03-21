@@ -4,8 +4,8 @@ author: Kenar716
 title: "Measure Twice, Cut Once - Part 2/3"
 date: 2019-07-07 12:00:00 +0545
 cover: assets/images/posts/2019-07-07-measuretwicecutoncepart2/checklist-requirements.jpg
-cover_author_link: https://unsplash.com/photos/UtPC_kz8CAc
-cover_author_name: Daniel McCullough
+cover_author_link: https://unsplash.com/photos/RLw-UC03Gwc
+cover_author_name: Glenn Carstens-Peters
 categories: blog
 summary:
 ---
