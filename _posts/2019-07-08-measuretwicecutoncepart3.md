@@ -36,7 +36,7 @@ Muchos componentes son comunes para la buena arquitectura de sistemas, la siguie
 - Procesamiento de errores
 - Tolerancia a fallos
 - Viabilidad arquitectónica
-- Sobre-enginiería
+- Sobre-engeniería
 - Decisiones de Compra -vs Construcción
 - Decisiones de reusabilidad
 - Cambio de estrategia
