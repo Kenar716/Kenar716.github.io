@@ -6,8 +6,7 @@ date: 2018-12-06 12:00:00 +0545
 categories: blog
 summary:
 ---
-
-**Indices para mejorar tus consultas**
+#### Indices para mejorar tus consultas
 
 Los índices en determinadas situaciones pueden mejorar el desempeño de tus consultas a la base de datos.
 

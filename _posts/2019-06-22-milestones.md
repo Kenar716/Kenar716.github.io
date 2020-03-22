@@ -6,7 +6,7 @@ date: 2019-06-22 12:00:00 +0545
 categories: blog
 summary:
 ---
-**Objetivos e hitos.**
+#### Objetivos e hitos.
 
 A finales de mayo decidi trabajar con mayor ahinco en convertirme en un mejor profesional y un mejor software developer, a raiz de ello inicie la lectura un libro llamado *Soft Skills: The Software developer's life mannual* (el cual aun sigo leyendo) el cual me da dado una excusa para retomar este blog.
 

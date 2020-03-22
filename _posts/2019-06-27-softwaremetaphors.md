@@ -6,7 +6,7 @@ date: 2019-06-27 12:00:00 +0545
 categories: blog
 summary:
 ---
-**Métaforas de software**
+#### Métaforas de software
 
 Las metáforas dentro del software nos permiten comprender como funciona el proceso de construccion del software, asi como tambien nos ayuda a explicar a otras personas de manera mas simple algunos conceptos que de entrada pueden resultar muy complejos, los parrafos siguientes son un pequeño extracto del libro _**Code Complete**_ 2nd Edition de **Steve McConnell**, Chapter 2: _Metaphors for a Richer Understanding of Software Development_.
 

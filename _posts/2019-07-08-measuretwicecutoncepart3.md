@@ -9,7 +9,7 @@ cover_author_name: Daniel McCullough
 categories: blog
 summary:
 ---
-**Prerequisitos para la construcción de software - Parte 3**
+#### Prerequisitos para la construcción de software - Parte 3
 
 La arquitectura de software es una parte de alto nivel del diseño de software, es el marco que sostiene las partes mas detalladas del diseño, una arquitectura bien pensada provee la estructura necesaria para mantener la integridad conceptual de todos los componentes del software. 
 

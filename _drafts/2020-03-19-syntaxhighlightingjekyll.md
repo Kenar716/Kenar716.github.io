@@ -8,7 +8,7 @@ categories: blog
 summary:
 custom_css: syntax_highlighting/manni
 ---
-**Syntax Highlighting Jekyll**
+#### Syntax Highlighting Jekyll
 
 {% highlight csharp linenos %}
 // reverse byte order (16-bit)

@@ -6,7 +6,7 @@ date: 2019-07-06 12:00:00 +0545
 categories: blog
 summary:
 ---
-**Prerequisitos para la construcción de software**
+#### Prerequisitos para la construcción de software
 
 La frase "Mide dos veces, corta una vez" es muy relevante en el proceso de desarrollo de software, ya que una mala definición de requisitos elevaran el costo, gran parte del éxito o fracaso de un proyecto ha sido determinado antes de que la construcción inicie. Si las bases no han sido bien cimentadas o si la planeación es inadecuada, lo mejor que se puede realizar durante la construcción es mantener el daño al mínimo. 
 

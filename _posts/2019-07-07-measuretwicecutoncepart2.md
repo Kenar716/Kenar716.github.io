@@ -9,7 +9,7 @@ cover_author_name: Glenn Carstens-Peters
 categories: blog
 summary:
 ---
-**Prerequisitos para la construcción de software - Parte 2**
+#### Prerequisitos para la construcción de software - Parte 2
 
 La siguiente lista de verificación contiene una serie de preguntas que debemos realizarnos acerca de los requerimientos del proyecto, si bien esta no es una lista exhaustiva nos provee una base sólida para el proceso de construcción de software.
 

@@ -7,8 +7,7 @@ cover: assets/images/posts/2018-12-07-jekyllandmailchimp/mailchimp_logo.png
 categories: blog
 summary:
 ---
-
-**Formulario de Suscripción en Jekyll con Mailchimp.**
+#### Formulario de Suscripción en Jekyll con Mailchimp.
 
 Agrega un formulario de suscripcion para tus visitantes con Mailchimp.
 

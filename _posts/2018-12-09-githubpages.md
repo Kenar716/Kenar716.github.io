@@ -7,7 +7,7 @@ cover: assets/images/posts/2018-12-09-githubpages/githubpages_banner.PNG
 categories: blog
 summary:
 ---
-**Tu página personal en Github Pages.**
+#### Tu página personal en Github Pages.
 
 Github Pages es un servicio de hospedaje gratuito de sitios estáticos vinculado directamente a un repositorio en Github, por lo cual puede ser un punto de partida excelente para tener un sitio o blog personal
 
